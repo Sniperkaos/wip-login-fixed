@@ -1,18 +1,8 @@
 import $ from 'jquery';
-var data = {
-  "Usernames": {
-      "Username":1,
-      "Username2":2,
-      "Username3":3,
-      "Username4":4
-    },
-  "Passwords": {
-      "Password":1,
-      "Password2":2,
-      "Password3":3,
-      "Password4":4
-  }
-}
+import passwords from './lmao.js'
+
+console.log(passwords)
+/*
 var str = JSON.stringify(data);
 var string = str.replace(/[{}"]/g, '');
 $("#submit").click(function() {
@@ -45,3 +35,4 @@ console.log(rsx)
 
 })
 //console.log(string)
+*/
